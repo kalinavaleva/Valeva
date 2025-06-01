@@ -1,4 +1,99 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Адв. Йорданка Наумова-Метаниева</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #154c79;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+        form {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+        }
+        input[type="submit"] {
+            background-color: #154c79;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
 
+<header>
+    <h1>Адв. Йорданка Наумова-Метаниева</h1>
+    <p>Адвокатска колегия Кюстендил</p>
+</header>
+
+<main>
+    <section>
+        <h2>Контакт</h2>
+        <p><strong>Адрес:</strong> гр. Дупница, ул. Солун 2, ет. 3</p>
+        <p><strong>Телефон:</strong> <a href="tel:0894300966">0894 300 966</a></p>
+        <p><strong>Email:</strong> <a href="mailto:dani_naumova@abv.bg">dani_naumova@abv.bg</a></p>
+    </section>
+
+    <section>
+        <h2>Правни услуги</h2>
+        <ul>
+            <li>Гражданско право – договори, имоти, наследства</li>
+            <li>Наказателно право – защита по наказателни дела</li>
+            <li>Семейно право – развод, родителски права, издръжка</li>
+            <li>Трудово право – спорове с работодател, уволнение</li>
+            <li>Административно право – обжалване на актове и глоби</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Форма за запитване</h2>
+        <form action="mailto:dani_naumova@abv.bg" method="post" enctype="text/plain">
+            <label>Име:</label>
+            <input type="text" name="name" required>
+            <label>Email:</label>
+            <input type="email" name="email" required>
+            <label>Съобщение:</label>
+            <textarea name="message" rows="5" required></textarea>
+            <input type="submit" value="Изпрати">
+        </form>
+    </section>
+
+    <section>
+        <h2>Карта</h2>
+        <iframe src="https://www.google.com/maps?q=ул.+Солун+2,+Дупница&output=embed"></iframe>
+    </section>
+</main>
+
+</body>
+</html>
 <!DOCTYPE html>
 <html lang="bg">
 <head>
